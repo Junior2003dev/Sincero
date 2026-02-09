@@ -464,5 +464,9 @@ var bar=document.getElementById('floatingBar'),hero=document.querySelector('.her
 // Scroll suave para os CTAs
 document.querySelectorAll('a[href="#kit-completo"]').forEach(function(link){link.addEventListener('click',function(e){e.preventDefault();var target=document.getElementById('kit-completo');if(target){var offsetTop=target.getBoundingClientRect().top+window.pageYOffset-80;window.scrollTo({top:offsetTop,behavior:'smooth'})}})});
 </script>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
